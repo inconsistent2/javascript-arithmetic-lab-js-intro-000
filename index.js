@@ -24,6 +24,6 @@ function decrement(a){
   return a
 }
 
-function makeInt(string){
-  parseInt('string',10)
+function makeInt(string,base){
+  parseInt(string,base)
 }
