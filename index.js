@@ -23,3 +23,7 @@ function decrement(a){
   a = a-=1
   return a
 }
+
+function makeInt(string){
+  parseInt(string,10)
+}
